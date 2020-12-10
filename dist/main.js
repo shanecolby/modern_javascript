@@ -1427,7 +1427,7 @@ eval("/* module decorator */ module = __webpack_require__.nmd(module);\n//! mome
 /*!******************!*
   !*** ./index.js ***!
   \******************/
-eval("var moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n\nconsole.log(\"this is the js file\");\n\nconsole.log(moment().format('dddd'));\n\nconsole.log(moment().format('MMMM Do YYYY, h:mm:ss a'));\n\n\n\n//# sourceURL=webpack://modern_javascript/./index.js?");
+eval("var moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n\nconsole.log(\"this is the js file\");\nconsole.log(moment().format('dddd'));\nconsole.log(moment().format('MMMM Do YYYY, h:mm:ss a'));\nvar firstName = \"shane\";\nvar lastName = \"colby\";\nconsole.log(\"My full name is \".concat(firstName, \" \").concat(lastName));\n\n//# sourceURL=webpack://modern_javascript/./index.js?");
 })();
 
 /******/ })()
